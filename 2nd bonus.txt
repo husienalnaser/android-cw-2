@@ -1,0 +1,22 @@
+public class HelloWorld{
+
+     public static void main(String []args){
+        Numbers();
+     }
+     
+     
+     
+     public static void Numbers(){
+         
+         int i;
+         int y= 0;
+         for(i=1; i<=10; i++){
+             System.out.println(i);
+             y=y+i;
+             
+         }
+         System.out.println(y);
+         
+         
+     }
+}
